@@ -1,0 +1,86 @@
+body{
+    background-color:rgb(240, 232, 232) ;
+    margin: 0px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.content{
+    background-color: rgb(237, 237, 237);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    font-size: large;
+    color: rgb(50, 49, 49);
+}
+.header{
+    padding: 10px;
+    margin: 5px;
+    border-style: none;
+}
+.stuff{
+    padding: 10px;
+    margin: 5px;
+    border-style: none;
+}
+.items{
+    padding: 2px;
+    margin: 10px;
+    border-style: none;
+}
+.style{
+    width: 380px;
+    height: 25px;
+}
+.submit{
+    padding: 10px;
+    margin: 6px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 400px;
+    height: 35px;
+    color: white;
+    background-color: green;
+}
+
+.remove{
+    background-color: rgb(45, 44, 44);
+}
+p.num{
+    display: inline;
+    
+}
+
+.grid{
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(6, 249, 6);
+}
+
+.Level{
+    width: 230px;
+    height: 60px;
+    border: 1px solid black;
+}
+.value{
+    margin-left: 70px;
+}
+.everything{
+    background-color: rgb(237, 237, 237);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    font-size: large;
+    color: rgb(50, 49, 49);
+    border: 1px solid black;
+}

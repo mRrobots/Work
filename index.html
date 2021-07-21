@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- Add Stock -->
+    
+    <div class="content" id="add">
+        <p class="header">Add Stock</p>
+        <div class="stuff">
+            <div class="items"> 
+                <label>Select a Product Code</label><br>
+                <select class="style" name="products" id="products">
+                    <option value="product_0">
+                        --Select--
+                    </option>
+                    <option value="product_1">
+                        PRODUCT1
+                    </option>
+                    <option value="product_2">
+                        PRODUCT2
+                    </option>
+                    <option value="product_3">
+                        PRODUCT3
+                    </option>
+                </select>
+            </div>
+            <div class="items">
+                <label>Items Received</label><br>
+                <input type="number" value="0" class="style" id="item_R" >
+            </div>
+            <div class="items">
+                <label>Price per items Received</label><br>
+                <input type="number" value="0" class="style" id="p_item_R">
+            </div>
+            <div class="btn">
+                <input type="submit" class="submit" id="Add_stock" name="Add_stock"
+                    value="Add Stock" onclick="Add_Stock()">
+            </div>
+        </div>
+    </div>
+
+    <!-- Remove Stock -->
+
+    <div class="content" id="remove">
+        <p class="header">Remove Stock</p>
+        <div class="stuff">
+            <div class="items"> 
+                <label>Select a Product Code</label><br>
+                <select class="style" name="bproducts" id="bproducts" >
+                    <option value="product_0">
+                        --Select--
+                    </option>
+                    <option value="product_1">
+                        PRODUCT1
+                    </option>
+                    <option value="product_2">
+                        PRODUCT2
+                    </option>
+                    <option value="product_3">
+                        PRODUCT3
+                    </option>
+                </select>
+            </div>
+            <div class="items">
+                <label>Buyer Email Address</label><br>
+                <input type="email" placeholder="email" class="style" id="Email">
+            </div>
+            <div class="items">
+                <label>Items Bought</label><br>
+                <input type="number" value="0" class="style" id="item_bought">
+            </div>
+            <div class="btn">
+                <input type="submit" class="submit remove" id="remove_stock" name="Add_stocke" 
+                value="Item Shipped" onclick="Remove_Stock()">
+            </div>
+        </div>
+    </div>
+
+    <!-- Stock Level -->
+
+    <div class="everything">
+        <!-- <div class="content" id="remove"> -->
+            <p class="header">Stock Level</p>
+            <div class="grid">
+                <div class="items Level" id="items_Level1"> 
+                    <p class="num">PRODUCT01</p>
+                    <p class="num value" id="num_value1"> 0 </p>
+                    <p class="average1" id="average1"> 0 </p>
+                </div>
+                <div class="items Level" id="items_Level2">
+                    <p class="num">PRODUCT02</p>
+                    <p class="num value" id="num_value2"> 0 </p>
+                    <p class="average2" id="average2"> 0 </p>
+                </div>
+                <div class="items Level" id="items_Level3">
+                    <p class="num">PRODUCT03</p>
+                    <p class="num value" id="num_value3"> 0 </p>
+                    <p class="average3" id="average3"> 0 </p>
+                </div>
+            
+            </div>
+        <!-- </div> -->
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>
